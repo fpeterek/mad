@@ -17,6 +17,7 @@ class Dataframe<T> private constructor(val data: List<T>) {
 
     operator fun iterator() = data.iterator()
     fun <T2> iterator(of: T.() -> T2) = data.stream().map(of).iterator()
+    fun <T2> sequence(of: T.() -> T2) = iterator(of).asSequence()
 
     fun avg(of: T.() -> Double) = data.sumOf(of) / data.size
 
@@ -46,8 +47,8 @@ class Dataframe<T> private constructor(val data: List<T>) {
     private fun pdf(value: Double, avg: Double, variance: Double) =
         (sqrt(2*Math.PI*variance)).pow(-1) * exp(-0.5 * (value-avg).pow(2) / variance)
 
-    fun distribution(of: T.() -> Double, samples: Int = 100) =
-        (min(of) to max(of)).let { (minVal, maxVal) ->
+    fun distribution(of: T.() -> Double, samples: Int = 100, begin: Double? = null, end: Double? = null) =
+        ((begin ?: min(of)) to (end ?: max(of))).let { (minVal, maxVal) ->
             val diff = maxVal - minVal
             val avgVal = avg(of)
             val variance = totalVariance(of, withAvg = avgVal)
@@ -57,20 +58,33 @@ class Dataframe<T> private constructor(val data: List<T>) {
             }
         }
 
-    fun cumulativeDistribution(of: T.() -> Double, samples: Int = 100) =
-        distribution(of, samples).let {  dist ->
-            val keys = dist.keys.sorted()
-            val values = mutableMapOf(
-                keys.first() to dist[keys.first()]!!
-            )
-            keys.indices.drop(1).forEach {
-                values[keys[it]] = (values[keys[it-1]]!! + dist[keys[it]]!!)
-            }
+    fun actualDistribution(of: T.() -> Double) = avg(of).let { avgVal ->
+        val variance = totalVariance(of, withAvg = avgVal)
 
-            val max = values[keys.last()]!!
-
-            values.mapValues { (_, it) -> it / max }
+        sequence(of).associateWith {
+            pdf(it, avgVal, variance)
         }
+    }
+
+    private fun calcCumulativeDistribution(dist: Map<Double, Double>): Map<Double, Double> {
+        val keys = dist.keys.sorted()
+        val values = mutableMapOf(
+            keys.first() to dist[keys.first()]!!
+        )
+        keys.indices.drop(1).forEach {
+            values[keys[it]] = (values[keys[it-1]]!! + dist[keys[it]]!!)
+        }
+
+        val max = values[keys.last()]!!
+
+        return values.mapValues { (_, it) -> it / max }
+    }
+
+    fun cumulativeDistribution(of: T.() -> Double, samples: Int = 100) =
+        calcCumulativeDistribution(distribution(of, samples))
+
+    fun actualCumulativeDistribution(of: T.() -> Double) =
+        calcCumulativeDistribution(actualDistribution(of))
 
     private fun varianceOf(item: T, of: T.() -> Double, avg: Double) =
         (item.of() - avg).pow(2)

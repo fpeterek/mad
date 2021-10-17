@@ -41,9 +41,23 @@ fun plotDist(df: Dataframe<IrisRecord>, of: IrisRecord.() -> Double, outFile: St
     outFile,
 )
 
+fun plotActualDist(df: Dataframe<IrisRecord>, of: IrisRecord.() -> Double, outFile: String) = plotFunction(
+    df,
+    Dataframe<IrisRecord>::actualDistribution,
+    of,
+    outFile,
+)
+
 fun plotCumulative(df: Dataframe<IrisRecord>, of: IrisRecord.() -> Double, outFile: String) = plotFunction(
     df,
     Dataframe<IrisRecord>::cumulativeDistribution,
+    of,
+    outFile,
+)
+
+fun plotActualCumulative(df: Dataframe<IrisRecord>, of: IrisRecord.() -> Double, outFile: String) = plotFunction(
+    df,
+    Dataframe<IrisRecord>::actualCumulativeDistribution,
     of,
     outFile,
 )
@@ -56,6 +70,34 @@ fun loadIrisDf(filename: String) = Dataframe.from(filename) {
         it[3].toDouble(),
         it[4],
     )
+}
+
+fun plotDistributions(df: Dataframe<IrisRecord>) {
+    plotDist(df, IrisRecord::sepalLength, "slDistribution.svg")
+    plotDist(df, IrisRecord::sepalWidth, "swDistribution.svg")
+    plotDist(df, IrisRecord::petalLength, "plDistribution.svg")
+    plotDist(df, IrisRecord::petalWidth, "pwDistribution.svg")
+}
+
+fun plotCumulativeDistributions(df: Dataframe<IrisRecord>) {
+    plotCumulative(df, IrisRecord::sepalLength, "slCumulative.svg")
+    plotCumulative(df, IrisRecord::sepalWidth, "swCumulative.svg")
+    plotCumulative(df, IrisRecord::petalLength, "plCumulative.svg")
+    plotCumulative(df, IrisRecord::petalWidth, "pwCumulative.svg")
+}
+
+fun plotActualDistributions(df: Dataframe<IrisRecord>) {
+    plotActualDist(df, IrisRecord::sepalLength, "slActualDistribution.svg")
+    plotActualDist(df, IrisRecord::sepalWidth, "swActualDistribution.svg")
+    plotActualDist(df, IrisRecord::petalLength, "plActualDistribution.svg")
+    plotActualDist(df, IrisRecord::petalWidth, "pwActualDistribution.svg")
+}
+
+fun plotActualCumulativeDistributions(df: Dataframe<IrisRecord>) {
+    plotActualCumulative(df, IrisRecord::sepalLength, "slActualCumulative.svg")
+    plotActualCumulative(df, IrisRecord::sepalWidth, "swActualCumulative.svg")
+    plotActualCumulative(df, IrisRecord::petalLength, "plActualCumulative.svg")
+    plotActualCumulative(df, IrisRecord::petalWidth, "pwActualCumulative.svg")
 }
 
 fun main() {
@@ -75,21 +117,16 @@ fun main() {
     val plVariance = df.totalVariance(IrisRecord::petalLength, avgInstance.petalLength)
     val pwVariance = df.totalVariance(IrisRecord::petalWidth, avgInstance.petalWidth)
 
-    plotDist(df, IrisRecord::sepalLength, "slDistribution.svg")
-    plotDist(df, IrisRecord::sepalWidth, "swDistribution.svg")
-    plotDist(df, IrisRecord::petalLength, "plDistribution.svg")
-    plotDist(df, IrisRecord::petalWidth, "pwDistribution.svg")
-
-    plotCumulative(df, IrisRecord::sepalLength, "slCumulative.svg")
-    plotCumulative(df, IrisRecord::sepalWidth, "swCumulative.svg")
-    plotCumulative(df, IrisRecord::petalLength, "plCumulative.svg")
-    plotCumulative(df, IrisRecord::petalWidth, "pwCumulative.svg")
-
     println("Average instance: $avgInstance")
 
     println("Sepal length variance: $slVariance")
     println("Sepal width variance: $swVariance")
     println("Petal length variance: $plVariance")
     println("Petal width variance: $pwVariance")
+
+    plotDistributions(df)
+    plotActualDistributions(df)
+    plotCumulativeDistributions(df)
+    plotActualCumulativeDistributions(df)
 
 }
