@@ -4,4 +4,7 @@ build/
 *.swp
 .DS_Store/
 *.svg
+__pycache__/
+*.py[co]
+venv/
 
