@@ -2,7 +2,7 @@ import math
 
 import matplotlib.pyplot as plt
 
-from graphs.matrix_graph import Graph as MatrixGraph
+from graphs.matrix_graph import Graph as MatrixGraph, DistanceMatrix
 from graphs.list_graph import Graph as ListGraph
 
 
@@ -30,6 +30,15 @@ def graph_test(name):
 def matrix_graph_test():
     graph = MatrixGraph.load_from_file('in/KarateClub.csv')
     print(graph)
+    dist: DistanceMatrix = graph.to_dist_matrix()
+    print('Distances:')
+    print(dist)
+    print(f'Average distance: {dist.avg_dist()}')
+    print(f'Diameter: {dist.diameter()}')
+    print('Closeness centralities')
+    centralities = sorted(dist.closeness_centralities().items())
+    for node, centrality in centralities:
+        print(f'| {node:3}: {centrality:.7f} |')
 
 
 def plot_hist(dictionary: dict) -> None:
