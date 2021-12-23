@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2021-12-23">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Aemon">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="691.3271" y="-190.97464"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Grenn">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="868.78345" y="-356.7715"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Samwell">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="7"></attvalue>
+          <attvalue for="outdegree" value="8"></attvalue>
+          <attvalue for="degree" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="706.96735" y="-354.87222"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Aerys">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="4"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-367.7423" y="114.611496"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Jaime">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="9"></attvalue>
+          <attvalue for="outdegree" value="15"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-204.78711" y="73.58302"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Robert">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="13"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-423.5742" y="264.08398"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Tyrion">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="12"></attvalue>
+          <attvalue for="outdegree" value="24"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-246.96307" y="-248.83388"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Tywin">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-55.198723" y="-298.62988"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Alliser">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="927.8008" y="-502.34015"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Mance">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="8"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1006.0539" y="-212.05008"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Amory">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-806.5068" y="-358.14255"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Oberyn">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-616.96106" y="-142.38077"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Arya">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="16"></attvalue>
+          <attvalue for="degree" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="101.61679" y="277.5889"></viz:position>
+        <viz:color r="255" g="93" b="133"></viz:color>
+      </node>
+      <node id="Anguy">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-20.750973" y="683.4664"></viz:position>
+        <viz:color r="255" g="93" b="133"></viz:color>
+      </node>
+      <node id="Beric">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="3"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-97.005516" y="532.57275"></viz:position>
+        <viz:color r="255" g="93" b="133"></viz:color>
+      </node>
+      <node id="Bran">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="9"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="679.79425" y="220.40308"></viz:position>
+        <viz:color r="128" g="107" b="104"></viz:color>
+      </node>
+      <node id="Brynden">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="239.42723" y="571.1995"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Cersei">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="14"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-328.31174" y="-41.21831"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Gendry">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="5.2047243" y="408.02344"></viz:position>
+        <viz:color r="255" g="93" b="133"></viz:color>
+      </node>
+      <node id="Gregor">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="7"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-483.5231" y="-0.68113613"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Joffrey">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="12"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-170.22371" y="-99.607475"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Jon">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="21"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="849.0642" y="-194.02205"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Rickon">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="454.76074" y="0.21564436"></viz:position>
+        <viz:color r="128" g="107" b="104"></viz:color>
+      </node>
+      <node id="Roose">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="72.855644" y="553.46704"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Sandor">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="7"></attvalue>
+          <attvalue for="outdegree" value="6"></attvalue>
+          <attvalue for="degree" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-146.64455" y="353.30316"></viz:position>
+        <viz:color r="255" g="93" b="133"></viz:color>
+      </node>
+      <node id="Thoros">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-261.0965" y="531.9226"></viz:position>
+        <viz:color r="255" g="93" b="133"></viz:color>
+      </node>
+      <node id="Balon">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="244.8843" y="-356.21277"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Loras">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="7"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-52.560448" y="6.6178584"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Belwas">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1382.9723" y="495.39285"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Barristan">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1269.9329" y="386.4351"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Illyrio">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1525.6525" y="726.9834"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Hodor">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="619.8629" y="13.312431"></viz:position>
+        <viz:color r="128" g="107" b="104"></viz:color>
+      </node>
+      <node id="Jojen">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="765.0363" y="-50.211105"></viz:position>
+        <viz:color r="128" g="107" b="104"></viz:color>
+      </node>
+      <node id="Luwin">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="979.8308" y="320.3249"></viz:position>
+        <viz:color r="128" g="107" b="104"></viz:color>
+      </node>
+      <node id="Meera">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="796.56433" y="108.99875"></viz:position>
+        <viz:color r="128" g="107" b="104"></viz:color>
+      </node>
+      <node id="Nan">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="828.73694" y="275.92865"></viz:position>
+        <viz:color r="128" g="107" b="104"></viz:color>
+      </node>
+      <node id="Theon">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="542.6083" y="-136.11583"></viz:position>
+        <viz:color r="128" g="107" b="104"></viz:color>
+      </node>
+      <node id="Brienne">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-85.64957" y="205.46686"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Bronn">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-388.54266" y="-321.66498"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Podrick">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-190.32814" y="-399.71832"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Lothar">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="552.70764" y="385.22787"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Walder">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="3"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="420.90924" y="290.48453"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Catelyn">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="17"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="261.50177" y="282.93784"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Edmure">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="4"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="334.7538" y="430.4083"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Hoster">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="173.825" y="427.37946"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Jeyne">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="531.487" y="155.72694"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Lysa">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="7"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="55.939842" y="127.37513"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Petyr">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="7"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="280.04532" y="-13.221457"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Robb">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="23"></attvalue>
+          <attvalue for="degree" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="374.90677" y="135.94563"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Roslin">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="406.28665" y="573.6394"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Sansa">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="23"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="108.67775" y="-41.113754"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Stannis">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="8"></attvalue>
+          <attvalue for="outdegree" value="6"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="406.84943" y="-330.00433"></viz:position>
+        <viz:color r="0" g="175" b="135"></viz:color>
+      </node>
+      <node id="Elia">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-761.38855" y="132.03651"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Ilyn">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-643.0524" y="21.120136"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Meryn">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-536.6694" y="147.8121"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Pycelle">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-360.59427" y="-635.07806"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Shae">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-333.66714" y="-474.99094"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Varys">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-186.18591" y="-571.25726"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Craster">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1192.5353" y="-372.1833"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Karl">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1324.8807" y="-462.87332"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Daario">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1684.808" y="685.4719"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Drogo">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1688.2743" y="517.45667"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Irri">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1828.7762" y="604.80975"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Daenerys">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="14"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1426.3323" y="329.5658"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Aegon">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1724.401" y="356.55774"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Jorah">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="4"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1382.4519" y="655.5286"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Kraznys">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1602.5159" y="237.39221"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Missandei">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1570.6084" y="395.36722"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Rakharo">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1866.344" y="439.945"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Rhaegar">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="4"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1104.7197" y="367.3476"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Viserys">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1225.264" y="225.9332"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Worm">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-1536.325" y="562.9791"></viz:position>
+        <viz:color r="250" g="146" b="0"></viz:color>
+      </node>
+      <node id="Davos">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="412.9837" y="-491.87878"></viz:position>
+        <viz:color r="0" g="175" b="135"></viz:color>
+      </node>
+      <node id="Cressen">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="657.78796" y="-874.83405"></viz:position>
+        <viz:color r="0" g="175" b="135"></viz:color>
+      </node>
+      <node id="Salladhor">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="556.2676" y="-584.06305"></viz:position>
+        <viz:color r="0" g="175" b="135"></viz:color>
+      </node>
+      <node id="Eddard">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="12"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="212.92572" y="130.07289"></viz:position>
+        <viz:color r="255" g="93" b="133"></viz:color>
+      </node>
+      <node id="Eddison">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1110.0656" y="-514.2582"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Gilly">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1031.2366" y="-369.9171"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Qyburn">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-256.11975" y="226.68858"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Renly">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="3"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="105.92967" y="-441.43097"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Tommen">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-441.7523" y="-162.80205"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Janos">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="3"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="761.20593" y="-507.0727"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Bowen">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1004.8209" y="-649.9409"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Kevan">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-45.613903" y="-482.82672"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Margaery">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="7"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-6.1643367" y="-148.89139"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Myrcella">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-544.56287" y="-284.2275"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Dalla">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1250.859" y="-68.59761"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Melisandre">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="550.17" y="-406.34137"></viz:position>
+        <viz:color r="0" g="175" b="135"></viz:color>
+      </node>
+      <node id="Orell">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1324.8745" y="-258.86786"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Qhorin">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1085.6656" y="-62.760765"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Rattleshirt">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1155.4492" y="81.37629"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Styr">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="1167.359" y="-207.54007"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Val">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="988.0593" y="97.22375"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Ygritte">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="927.8931" y="-53.48178"></viz:position>
+        <viz:color r="105" g="196" b="4"></viz:color>
+      </node>
+      <node id="Jon Arryn">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-417.65216" y="494.04883"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Lancel">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-226.99333" y="-730.00446"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Olenna">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="101.41056" y="-275.68094"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Marillion">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="219.03874" y="-165.15082"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Robert Arryn">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="378.7364" y="-148.44069"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Ellaria">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-649.70435" y="-401.0648"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Mace">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-494.17532" y="-440.85043"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Rickard">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="565.74994" y="549.16864"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Ramsay">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="701.3752" y="438.76495"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="Chataya">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-600.1812" y="-562.0851"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Shireen">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="556.5682" y="-743.6777"></viz:position>
+        <viz:color r="0" g="175" b="135"></viz:color>
+      </node>
+      <node id="Doran">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-505.5994" y="-704.2171"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+      <node id="Walton">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.5"></viz:size>
+        <viz:position x="-305.5583" y="378.80573"></viz:position>
+        <viz:color r="226" g="139" b="255"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Aemon" target="Grenn" weight="5.0"></edge>
+      <edge id="1" source="Aemon" target="Samwell" weight="31.0"></edge>
+      <edge id="2" source="Aerys" target="Jaime" weight="18.0"></edge>
+      <edge id="3" source="Aerys" target="Robert" weight="6.0"></edge>
+      <edge id="4" source="Aerys" target="Tyrion" weight="5.0"></edge>
+      <edge id="5" source="Aerys" target="Tywin" weight="8.0"></edge>
+      <edge id="6" source="Alliser" target="Mance" weight="5.0"></edge>
+      <edge id="7" source="Amory" target="Oberyn" weight="5.0"></edge>
+      <edge id="8" source="Arya" target="Anguy" weight="11.0"></edge>
+      <edge id="9" source="Arya" target="Beric" weight="23.0"></edge>
+      <edge id="10" source="Arya" target="Bran" weight="9.0"></edge>
+      <edge id="11" source="Arya" target="Brynden" weight="6.0"></edge>
+      <edge id="12" source="Arya" target="Cersei" weight="5.0"></edge>
+      <edge id="13" source="Arya" target="Gendry" weight="43.0"></edge>
+      <edge id="14" source="Arya" target="Gregor" weight="7.0"></edge>
+      <edge id="15" source="Arya" target="Jaime" weight="11.0"></edge>
+      <edge id="16" source="Arya" target="Joffrey" weight="6.0"></edge>
+      <edge id="17" source="Arya" target="Jon" weight="7.0"></edge>
+      <edge id="18" source="Arya" target="Rickon" weight="8.0"></edge>
+      <edge id="19" source="Arya" target="Robert" weight="4.0"></edge>
+      <edge id="20" source="Arya" target="Roose" weight="5.0"></edge>
+      <edge id="21" source="Arya" target="Sandor" weight="46.0"></edge>
+      <edge id="22" source="Arya" target="Thoros" weight="18.0"></edge>
+      <edge id="23" source="Arya" target="Tyrion" weight="5.0"></edge>
+      <edge id="24" source="Balon" target="Loras" weight="4.0"></edge>
+      <edge id="25" source="Belwas" target="Barristan" weight="18.0"></edge>
+      <edge id="26" source="Belwas" target="Illyrio" weight="10.0"></edge>
+      <edge id="27" source="Beric" target="Anguy" weight="4.0"></edge>
+      <edge id="28" source="Beric" target="Gendry" weight="4.0"></edge>
+      <edge id="29" source="Beric" target="Thoros" weight="21.0"></edge>
+      <edge id="30" source="Bran" target="Hodor" weight="96.0"></edge>
+      <edge id="31" source="Bran" target="Jojen" weight="46.0"></edge>
+      <edge id="32" source="Bran" target="Jon" weight="12.0"></edge>
+      <edge id="33" source="Bran" target="Luwin" weight="4.0"></edge>
+      <edge id="34" source="Bran" target="Meera" weight="54.0"></edge>
+      <edge id="35" source="Bran" target="Nan" weight="14.0"></edge>
+      <edge id="36" source="Bran" target="Rickon" weight="35.0"></edge>
+      <edge id="37" source="Bran" target="Samwell" weight="11.0"></edge>
+      <edge id="38" source="Bran" target="Theon" weight="11.0"></edge>
+      <edge id="39" source="Brienne" target="Loras" weight="7.0"></edge>
+      <edge id="40" source="Bronn" target="Gregor" weight="5.0"></edge>
+      <edge id="41" source="Bronn" target="Podrick" weight="19.0"></edge>
+      <edge id="42" source="Brynden" target="Lothar" weight="4.0"></edge>
+      <edge id="43" source="Brynden" target="Walder" weight="5.0"></edge>
+      <edge id="44" source="Catelyn" target="Bran" weight="4.0"></edge>
+      <edge id="45" source="Catelyn" target="Brienne" weight="7.0"></edge>
+      <edge id="46" source="Catelyn" target="Brynden" weight="8.0"></edge>
+      <edge id="47" source="Catelyn" target="Cersei" weight="4.0"></edge>
+      <edge id="48" source="Catelyn" target="Edmure" weight="16.0"></edge>
+      <edge id="49" source="Catelyn" target="Hoster" weight="9.0"></edge>
+      <edge id="50" source="Catelyn" target="Jaime" weight="19.0"></edge>
+      <edge id="51" source="Catelyn" target="Jeyne" weight="10.0"></edge>
+      <edge id="52" source="Catelyn" target="Lysa" weight="8.0"></edge>
+      <edge id="53" source="Catelyn" target="Petyr" weight="5.0"></edge>
+      <edge id="54" source="Catelyn" target="Robb" weight="43.0"></edge>
+      <edge id="55" source="Catelyn" target="Roose" weight="4.0"></edge>
+      <edge id="56" source="Catelyn" target="Roslin" weight="6.0"></edge>
+      <edge id="57" source="Catelyn" target="Sansa" weight="8.0"></edge>
+      <edge id="58" source="Catelyn" target="Stannis" weight="4.0"></edge>
+      <edge id="59" source="Catelyn" target="Tyrion" weight="5.0"></edge>
+      <edge id="60" source="Catelyn" target="Walder" weight="19.0"></edge>
+      <edge id="61" source="Cersei" target="Brienne" weight="5.0"></edge>
+      <edge id="62" source="Cersei" target="Bronn" weight="4.0"></edge>
+      <edge id="63" source="Cersei" target="Elia" weight="4.0"></edge>
+      <edge id="64" source="Cersei" target="Gregor" weight="6.0"></edge>
+      <edge id="65" source="Cersei" target="Ilyn" weight="7.0"></edge>
+      <edge id="66" source="Cersei" target="Jaime" weight="36.0"></edge>
+      <edge id="67" source="Cersei" target="Joffrey" weight="23.0"></edge>
+      <edge id="68" source="Cersei" target="Meryn" weight="10.0"></edge>
+      <edge id="69" source="Cersei" target="Pycelle" weight="4.0"></edge>
+      <edge id="70" source="Cersei" target="Robert" weight="16.0"></edge>
+      <edge id="71" source="Cersei" target="Sandor" weight="6.0"></edge>
+      <edge id="72" source="Cersei" target="Shae" weight="4.0"></edge>
+      <edge id="73" source="Cersei" target="Tyrion" weight="46.0"></edge>
+      <edge id="74" source="Cersei" target="Varys" weight="4.0"></edge>
+      <edge id="75" source="Craster" target="Karl" weight="6.0"></edge>
+      <edge id="76" source="Daario" target="Drogo" weight="4.0"></edge>
+      <edge id="77" source="Daario" target="Irri" weight="5.0"></edge>
+      <edge id="78" source="Daenerys" target="Aegon" weight="8.0"></edge>
+      <edge id="79" source="Daenerys" target="Barristan" weight="20.0"></edge>
+      <edge id="80" source="Daenerys" target="Belwas" weight="26.0"></edge>
+      <edge id="81" source="Daenerys" target="Daario" weight="14.0"></edge>
+      <edge id="82" source="Daenerys" target="Drogo" weight="18.0"></edge>
+      <edge id="83" source="Daenerys" target="Irri" weight="17.0"></edge>
+      <edge id="84" source="Daenerys" target="Jorah" weight="47.0"></edge>
+      <edge id="85" source="Daenerys" target="Kraznys" weight="10.0"></edge>
+      <edge id="86" source="Daenerys" target="Missandei" weight="26.0"></edge>
+      <edge id="87" source="Daenerys" target="Rakharo" weight="7.0"></edge>
+      <edge id="88" source="Daenerys" target="Rhaegar" weight="12.0"></edge>
+      <edge id="89" source="Daenerys" target="Robert" weight="5.0"></edge>
+      <edge id="90" source="Daenerys" target="Viserys" weight="8.0"></edge>
+      <edge id="91" source="Daenerys" target="Worm" weight="14.0"></edge>
+      <edge id="92" source="Davos" target="Cressen" weight="4.0"></edge>
+      <edge id="93" source="Davos" target="Salladhor" weight="16.0"></edge>
+      <edge id="94" source="Eddard" target="Arya" weight="18.0"></edge>
+      <edge id="95" source="Eddard" target="Beric" weight="8.0"></edge>
+      <edge id="96" source="Eddard" target="Bran" weight="15.0"></edge>
+      <edge id="97" source="Eddard" target="Catelyn" weight="5.0"></edge>
+      <edge id="98" source="Eddard" target="Cersei" weight="6.0"></edge>
+      <edge id="99" source="Eddard" target="Jaime" weight="6.0"></edge>
+      <edge id="100" source="Eddard" target="Jon" weight="8.0"></edge>
+      <edge id="101" source="Eddard" target="Rickon" weight="8.0"></edge>
+      <edge id="102" source="Eddard" target="Robb" weight="13.0"></edge>
+      <edge id="103" source="Eddard" target="Robert" weight="10.0"></edge>
+      <edge id="104" source="Eddard" target="Sandor" weight="5.0"></edge>
+      <edge id="105" source="Eddard" target="Sansa" weight="6.0"></edge>
+      <edge id="106" source="Eddison" target="Grenn" weight="8.0"></edge>
+      <edge id="107" source="Edmure" target="Brynden" weight="7.0"></edge>
+      <edge id="108" source="Edmure" target="Lothar" weight="4.0"></edge>
+      <edge id="109" source="Edmure" target="Roslin" weight="16.0"></edge>
+      <edge id="110" source="Edmure" target="Walder" weight="9.0"></edge>
+      <edge id="111" source="Gendry" target="Thoros" weight="7.0"></edge>
+      <edge id="112" source="Gilly" target="Craster" weight="17.0"></edge>
+      <edge id="113" source="Gregor" target="Elia" weight="9.0"></edge>
+      <edge id="114" source="Gregor" target="Ilyn" weight="7.0"></edge>
+      <edge id="115" source="Gregor" target="Meryn" weight="7.0"></edge>
+      <edge id="116" source="Gregor" target="Oberyn" weight="24.0"></edge>
+      <edge id="117" source="Gregor" target="Sandor" weight="12.0"></edge>
+      <edge id="118" source="Hodor" target="Jojen" weight="35.0"></edge>
+      <edge id="119" source="Hodor" target="Meera" weight="41.0"></edge>
+      <edge id="120" source="Hoster" target="Edmure" weight="9.0"></edge>
+      <edge id="121" source="Irri" target="Drogo" weight="7.0"></edge>
+      <edge id="122" source="Jaime" target="Balon" weight="6.0"></edge>
+      <edge id="123" source="Jaime" target="Barristan" weight="4.0"></edge>
+      <edge id="124" source="Jaime" target="Brienne" weight="88.0"></edge>
+      <edge id="125" source="Jaime" target="Edmure" weight="5.0"></edge>
+      <edge id="126" source="Jaime" target="Elia" weight="4.0"></edge>
+      <edge id="127" source="Jaime" target="Gregor" weight="6.0"></edge>
+      <edge id="128" source="Jaime" target="Joffrey" weight="15.0"></edge>
+      <edge id="129" source="Jaime" target="Loras" weight="16.0"></edge>
+      <edge id="130" source="Jaime" target="Meryn" weight="11.0"></edge>
+      <edge id="131" source="Jaime" target="Qyburn" weight="11.0"></edge>
+      <edge id="132" source="Jaime" target="Renly" weight="7.0"></edge>
+      <edge id="133" source="Jaime" target="Robert" weight="17.0"></edge>
+      <edge id="134" source="Jaime" target="Stannis" weight="5.0"></edge>
+      <edge id="135" source="Jaime" target="Tommen" weight="8.0"></edge>
+      <edge id="136" source="Jaime" target="Tyrion" weight="31.0"></edge>
+      <edge id="137" source="Janos" target="Alliser" weight="9.0"></edge>
+      <edge id="138" source="Janos" target="Bowen" weight="5.0"></edge>
+      <edge id="139" source="Janos" target="Mance" weight="4.0"></edge>
+      <edge id="140" source="Joffrey" target="Gregor" weight="5.0"></edge>
+      <edge id="141" source="Joffrey" target="Ilyn" weight="4.0"></edge>
+      <edge id="142" source="Joffrey" target="Kevan" weight="8.0"></edge>
+      <edge id="143" source="Joffrey" target="Loras" weight="7.0"></edge>
+      <edge id="144" source="Joffrey" target="Margaery" weight="28.0"></edge>
+      <edge id="145" source="Joffrey" target="Meryn" weight="5.0"></edge>
+      <edge id="146" source="Joffrey" target="Myrcella" weight="5.0"></edge>
+      <edge id="147" source="Joffrey" target="Oberyn" weight="4.0"></edge>
+      <edge id="148" source="Joffrey" target="Sandor" weight="14.0"></edge>
+      <edge id="149" source="Joffrey" target="Stannis" weight="10.0"></edge>
+      <edge id="150" source="Joffrey" target="Tommen" weight="9.0"></edge>
+      <edge id="151" source="Joffrey" target="Tyrion" weight="54.0"></edge>
+      <edge id="152" source="Jojen" target="Meera" weight="33.0"></edge>
+      <edge id="153" source="Jojen" target="Samwell" weight="11.0"></edge>
+      <edge id="154" source="Jon" target="Aemon" weight="30.0"></edge>
+      <edge id="155" source="Jon" target="Alliser" weight="15.0"></edge>
+      <edge id="156" source="Jon" target="Craster" weight="7.0"></edge>
+      <edge id="157" source="Jon" target="Dalla" weight="6.0"></edge>
+      <edge id="158" source="Jon" target="Eddison" weight="4.0"></edge>
+      <edge id="159" source="Jon" target="Gilly" weight="9.0"></edge>
+      <edge id="160" source="Jon" target="Grenn" weight="25.0"></edge>
+      <edge id="161" source="Jon" target="Janos" weight="8.0"></edge>
+      <edge id="162" source="Jon" target="Mance" weight="69.0"></edge>
+      <edge id="163" source="Jon" target="Meera" weight="4.0"></edge>
+      <edge id="164" source="Jon" target="Melisandre" weight="7.0"></edge>
+      <edge id="165" source="Jon" target="Orell" weight="6.0"></edge>
+      <edge id="166" source="Jon" target="Qhorin" weight="31.0"></edge>
+      <edge id="167" source="Jon" target="Rattleshirt" weight="20.0"></edge>
+      <edge id="168" source="Jon" target="Robert" weight="5.0"></edge>
+      <edge id="169" source="Jon" target="Samwell" weight="52.0"></edge>
+      <edge id="170" source="Jon" target="Stannis" weight="9.0"></edge>
+      <edge id="171" source="Jon" target="Styr" weight="16.0"></edge>
+      <edge id="172" source="Jon" target="Theon" weight="8.0"></edge>
+      <edge id="173" source="Jon" target="Val" weight="12.0"></edge>
+      <edge id="174" source="Jon" target="Ygritte" weight="54.0"></edge>
+      <edge id="175" source="Jon Arryn" target="Lysa" weight="5.0"></edge>
+      <edge id="176" source="Jon Arryn" target="Robert" weight="6.0"></edge>
+      <edge id="177" source="Jorah" target="Barristan" weight="11.0"></edge>
+      <edge id="178" source="Jorah" target="Belwas" weight="13.0"></edge>
+      <edge id="179" source="Jorah" target="Daario" weight="7.0"></edge>
+      <edge id="180" source="Jorah" target="Drogo" weight="6.0"></edge>
+      <edge id="181" source="Kevan" target="Lancel" weight="7.0"></edge>
+      <edge id="182" source="Kevan" target="Varys" weight="5.0"></edge>
+      <edge id="183" source="Loras" target="Margaery" weight="9.0"></edge>
+      <edge id="184" source="Loras" target="Olenna" weight="5.0"></edge>
+      <edge id="185" source="Lothar" target="Roslin" weight="4.0"></edge>
+      <edge id="186" source="Luwin" target="Nan" weight="4.0"></edge>
+      <edge id="187" source="Lysa" target="Cersei" weight="4.0"></edge>
+      <edge id="188" source="Lysa" target="Hoster" weight="6.0"></edge>
+      <edge id="189" source="Lysa" target="Marillion" weight="10.0"></edge>
+      <edge id="190" source="Lysa" target="Petyr" weight="29.0"></edge>
+      <edge id="191" source="Lysa" target="Robert Arryn" weight="9.0"></edge>
+      <edge id="192" source="Lysa" target="Tyrion" weight="5.0"></edge>
+      <edge id="193" source="Lysa" target="Tywin" weight="4.0"></edge>
+      <edge id="194" source="Mance" target="Craster" weight="11.0"></edge>
+      <edge id="195" source="Mance" target="Dalla" weight="8.0"></edge>
+      <edge id="196" source="Mance" target="Gilly" weight="7.0"></edge>
+      <edge id="197" source="Mance" target="Qhorin" weight="10.0"></edge>
+      <edge id="198" source="Mance" target="Rattleshirt" weight="9.0"></edge>
+      <edge id="199" source="Mance" target="Styr" weight="7.0"></edge>
+      <edge id="200" source="Mance" target="Val" weight="8.0"></edge>
+      <edge id="201" source="Mance" target="Ygritte" weight="12.0"></edge>
+      <edge id="202" source="Meera" target="Samwell" weight="7.0"></edge>
+      <edge id="203" source="Melisandre" target="Davos" weight="30.0"></edge>
+      <edge id="204" source="Melisandre" target="Samwell" weight="5.0"></edge>
+      <edge id="205" source="Meryn" target="Ilyn" weight="5.0"></edge>
+      <edge id="206" source="Missandei" target="Irri" weight="4.0"></edge>
+      <edge id="207" source="Myrcella" target="Tommen" weight="5.0"></edge>
+      <edge id="208" source="Myrcella" target="Tyrion" weight="4.0"></edge>
+      <edge id="209" source="Oberyn" target="Ellaria" weight="6.0"></edge>
+      <edge id="210" source="Oberyn" target="Mace" weight="6.0"></edge>
+      <edge id="211" source="Podrick" target="Margaery" weight="4.0"></edge>
+      <edge id="212" source="Rattleshirt" target="Qhorin" weight="6.0"></edge>
+      <edge id="213" source="Renly" target="Loras" weight="8.0"></edge>
+      <edge id="214" source="Renly" target="Margaery" weight="7.0"></edge>
+      <edge id="215" source="Renly" target="Varys" weight="4.0"></edge>
+      <edge id="216" source="Rhaegar" target="Barristan" weight="5.0"></edge>
+      <edge id="217" source="Rhaegar" target="Elia" weight="7.0"></edge>
+      <edge id="218" source="Rhaegar" target="Jorah" weight="5.0"></edge>
+      <edge id="219" source="Rhaegar" target="Robert" weight="6.0"></edge>
+      <edge id="220" source="Rickard" target="Brynden" weight="4.0"></edge>
+      <edge id="221" source="Rickon" target="Theon" weight="8.0"></edge>
+      <edge id="222" source="Robb" target="Arya" weight="15.0"></edge>
+      <edge id="223" source="Robb" target="Balon" weight="6.0"></edge>
+      <edge id="224" source="Robb" target="Bran" weight="23.0"></edge>
+      <edge id="225" source="Robb" target="Brienne" weight="6.0"></edge>
+      <edge id="226" source="Robb" target="Brynden" weight="17.0"></edge>
+      <edge id="227" source="Robb" target="Edmure" weight="32.0"></edge>
+      <edge id="228" source="Robb" target="Hodor" weight="5.0"></edge>
+      <edge id="229" source="Robb" target="Jaime" weight="15.0"></edge>
+      <edge id="230" source="Robb" target="Jeyne" weight="18.0"></edge>
+      <edge id="231" source="Robb" target="Joffrey" weight="10.0"></edge>
+      <edge id="232" source="Robb" target="Jon" weight="14.0"></edge>
+      <edge id="233" source="Robb" target="Lothar" weight="10.0"></edge>
+      <edge id="234" source="Robb" target="Petyr" weight="5.0"></edge>
+      <edge id="235" source="Robb" target="Ramsay" weight="4.0"></edge>
+      <edge id="236" source="Robb" target="Rickard" weight="7.0"></edge>
+      <edge id="237" source="Robb" target="Rickon" weight="15.0"></edge>
+      <edge id="238" source="Robb" target="Roose" weight="4.0"></edge>
+      <edge id="239" source="Robb" target="Sansa" weight="15.0"></edge>
+      <edge id="240" source="Robb" target="Stannis" weight="4.0"></edge>
+      <edge id="241" source="Robb" target="Theon" weight="11.0"></edge>
+      <edge id="242" source="Robb" target="Tyrion" weight="12.0"></edge>
+      <edge id="243" source="Robb" target="Tywin" weight="12.0"></edge>
+      <edge id="244" source="Robb" target="Walder" weight="26.0"></edge>
+      <edge id="245" source="Robert" target="Aemon" weight="4.0"></edge>
+      <edge id="246" source="Robert" target="Barristan" weight="5.0"></edge>
+      <edge id="247" source="Robert" target="Renly" weight="4.0"></edge>
+      <edge id="248" source="Robert" target="Stannis" weight="5.0"></edge>
+      <edge id="249" source="Robert" target="Thoros" weight="4.0"></edge>
+      <edge id="250" source="Robert Arryn" target="Marillion" weight="4.0"></edge>
+      <edge id="251" source="Roose" target="Brienne" weight="4.0"></edge>
+      <edge id="252" source="Samwell" target="Bowen" weight="6.0"></edge>
+      <edge id="253" source="Samwell" target="Craster" weight="34.0"></edge>
+      <edge id="254" source="Samwell" target="Eddison" weight="12.0"></edge>
+      <edge id="255" source="Samwell" target="Gilly" weight="36.0"></edge>
+      <edge id="256" source="Samwell" target="Grenn" weight="43.0"></edge>
+      <edge id="257" source="Samwell" target="Janos" weight="6.0"></edge>
+      <edge id="258" source="Samwell" target="Mance" weight="10.0"></edge>
+      <edge id="259" source="Samwell" target="Qhorin" weight="5.0"></edge>
+      <edge id="260" source="Sandor" target="Beric" weight="15.0"></edge>
+      <edge id="261" source="Sandor" target="Gendry" weight="5.0"></edge>
+      <edge id="262" source="Sandor" target="Ilyn" weight="4.0"></edge>
+      <edge id="263" source="Sandor" target="Meryn" weight="4.0"></edge>
+      <edge id="264" source="Sandor" target="Robert" weight="6.0"></edge>
+      <edge id="265" source="Sandor" target="Thoros" weight="10.0"></edge>
+      <edge id="266" source="Sansa" target="Arya" weight="22.0"></edge>
+      <edge id="267" source="Sansa" target="Bran" weight="10.0"></edge>
+      <edge id="268" source="Sansa" target="Brienne" weight="5.0"></edge>
+      <edge id="269" source="Sansa" target="Cersei" weight="16.0"></edge>
+      <edge id="270" source="Sansa" target="Jaime" weight="10.0"></edge>
+      <edge id="271" source="Sansa" target="Joffrey" weight="35.0"></edge>
+      <edge id="272" source="Sansa" target="Jon" weight="4.0"></edge>
+      <edge id="273" source="Sansa" target="Kevan" weight="5.0"></edge>
+      <edge id="274" source="Sansa" target="Loras" weight="14.0"></edge>
+      <edge id="275" source="Sansa" target="Lysa" weight="28.0"></edge>
+      <edge id="276" source="Sansa" target="Margaery" weight="36.0"></edge>
+      <edge id="277" source="Sansa" target="Marillion" weight="9.0"></edge>
+      <edge id="278" source="Sansa" target="Myrcella" weight="4.0"></edge>
+      <edge id="279" source="Sansa" target="Olenna" weight="7.0"></edge>
+      <edge id="280" source="Sansa" target="Petyr" weight="28.0"></edge>
+      <edge id="281" source="Sansa" target="Podrick" weight="8.0"></edge>
+      <edge id="282" source="Sansa" target="Renly" weight="4.0"></edge>
+      <edge id="283" source="Sansa" target="Rickon" weight="7.0"></edge>
+      <edge id="284" source="Sansa" target="Robert" weight="5.0"></edge>
+      <edge id="285" source="Sansa" target="Robert Arryn" weight="6.0"></edge>
+      <edge id="286" source="Sansa" target="Sandor" weight="6.0"></edge>
+      <edge id="287" source="Sansa" target="Shae" weight="8.0"></edge>
+      <edge id="288" source="Sansa" target="Tyrion" weight="77.0"></edge>
+      <edge id="289" source="Shae" target="Chataya" weight="4.0"></edge>
+      <edge id="290" source="Shae" target="Varys" weight="8.0"></edge>
+      <edge id="291" source="Shireen" target="Davos" weight="5.0"></edge>
+      <edge id="292" source="Stannis" target="Aemon" weight="4.0"></edge>
+      <edge id="293" source="Stannis" target="Balon" weight="4.0"></edge>
+      <edge id="294" source="Stannis" target="Davos" weight="32.0"></edge>
+      <edge id="295" source="Stannis" target="Melisandre" weight="20.0"></edge>
+      <edge id="296" source="Stannis" target="Renly" weight="15.0"></edge>
+      <edge id="297" source="Stannis" target="Samwell" weight="13.0"></edge>
+      <edge id="298" source="Tommen" target="Margaery" weight="5.0"></edge>
+      <edge id="299" source="Tyrion" target="Balon" weight="4.0"></edge>
+      <edge id="300" source="Tyrion" target="Bronn" weight="31.0"></edge>
+      <edge id="301" source="Tyrion" target="Chataya" weight="5.0"></edge>
+      <edge id="302" source="Tyrion" target="Doran" weight="5.0"></edge>
+      <edge id="303" source="Tyrion" target="Elia" weight="5.0"></edge>
+      <edge id="304" source="Tyrion" target="Ellaria" weight="4.0"></edge>
+      <edge id="305" source="Tyrion" target="Gregor" weight="22.0"></edge>
+      <edge id="306" source="Tyrion" target="Ilyn" weight="5.0"></edge>
+      <edge id="307" source="Tyrion" target="Janos" weight="5.0"></edge>
+      <edge id="308" source="Tyrion" target="Kevan" weight="11.0"></edge>
+      <edge id="309" source="Tyrion" target="Loras" weight="6.0"></edge>
+      <edge id="310" source="Tyrion" target="Mace" weight="9.0"></edge>
+      <edge id="311" source="Tyrion" target="Margaery" weight="7.0"></edge>
+      <edge id="312" source="Tyrion" target="Meryn" weight="5.0"></edge>
+      <edge id="313" source="Tyrion" target="Oberyn" weight="25.0"></edge>
+      <edge id="314" source="Tyrion" target="Petyr" weight="12.0"></edge>
+      <edge id="315" source="Tyrion" target="Podrick" weight="28.0"></edge>
+      <edge id="316" source="Tyrion" target="Pycelle" weight="11.0"></edge>
+      <edge id="317" source="Tyrion" target="Renly" weight="6.0"></edge>
+      <edge id="318" source="Tyrion" target="Robert" weight="9.0"></edge>
+      <edge id="319" source="Tyrion" target="Sandor" weight="4.0"></edge>
+      <edge id="320" source="Tyrion" target="Shae" weight="21.0"></edge>
+      <edge id="321" source="Tyrion" target="Stannis" weight="6.0"></edge>
+      <edge id="322" source="Tyrion" target="Varys" weight="18.0"></edge>
+      <edge id="323" source="Tywin" target="Balon" weight="5.0"></edge>
+      <edge id="324" source="Tywin" target="Brynden" weight="4.0"></edge>
+      <edge id="325" source="Tywin" target="Cersei" weight="16.0"></edge>
+      <edge id="326" source="Tywin" target="Gregor" weight="7.0"></edge>
+      <edge id="327" source="Tywin" target="Jaime" weight="13.0"></edge>
+      <edge id="328" source="Tywin" target="Joffrey" weight="13.0"></edge>
+      <edge id="329" source="Tywin" target="Kevan" weight="14.0"></edge>
+      <edge id="330" source="Tywin" target="Mace" weight="5.0"></edge>
+      <edge id="331" source="Tywin" target="Oberyn" weight="6.0"></edge>
+      <edge id="332" source="Tywin" target="Petyr" weight="4.0"></edge>
+      <edge id="333" source="Tywin" target="Podrick" weight="5.0"></edge>
+      <edge id="334" source="Tywin" target="Pycelle" weight="5.0"></edge>
+      <edge id="335" source="Tywin" target="Robert" weight="11.0"></edge>
+      <edge id="336" source="Tywin" target="Stannis" weight="15.0"></edge>
+      <edge id="337" source="Tywin" target="Tommen" weight="4.0"></edge>
+      <edge id="338" source="Tywin" target="Tyrion" weight="39.0"></edge>
+      <edge id="339" source="Tywin" target="Val" weight="4.0"></edge>
+      <edge id="340" source="Tywin" target="Varys" weight="6.0"></edge>
+      <edge id="341" source="Tywin" target="Walder" weight="4.0"></edge>
+      <edge id="342" source="Val" target="Dalla" weight="7.0"></edge>
+      <edge id="343" source="Varys" target="Pycelle" weight="4.0"></edge>
+      <edge id="344" source="Viserys" target="Rhaegar" weight="7.0"></edge>
+      <edge id="345" source="Viserys" target="Tyrion" weight="4.0"></edge>
+      <edge id="346" source="Walder" target="Lothar" weight="12.0"></edge>
+      <edge id="347" source="Walder" target="Petyr" weight="6.0"></edge>
+      <edge id="348" source="Walder" target="Roslin" weight="6.0"></edge>
+      <edge id="349" source="Walton" target="Jaime" weight="10.0"></edge>
+      <edge id="350" source="Ygritte" target="Qhorin" weight="7.0"></edge>
+      <edge id="351" source="Ygritte" target="Rattleshirt" weight="9.0"></edge>
+    </edges>
+  </graph>
+</gexf>
