@@ -1,0 +1,67 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'scala'
+}
+
+group 'org.fpeterek.mad.crimeanalysis'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/scala']
+        }
+    }
+
+    test {
+        scala {
+            srcDirs = ['test/scala']
+        }
+    }
+}
+
+dependencies {
+
+    // Standard libraries
+    implementation 'org.scala-lang:scala-library:2.11.12'
+
+    // Spark
+    implementation 'org.apache.spark:spark-core_2.11:2.4.7'
+    implementation 'org.apache.spark:spark-sql_2.11:2.4.7'
+
+    // Util libraries
+    implementation 'org.yaml:snakeyaml:1.9'
+    implementation 'org.json:json:20200518'
+    implementation 'joda-time:joda-time:2.10.8'
+
+    // Test dependencies, because tests are important
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    manifest {
+        attributes 'Main-Class': 'org.fpeterek.mad.crimeanalysis.Main'
+    }
+
+    from {
+        configurations.runtimeClasspath.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    } {
+        exclude 'META-INF/*'
+    }
+
+    zip64 true
+}
+
+test {
+    useJUnitPlatform()
+}
