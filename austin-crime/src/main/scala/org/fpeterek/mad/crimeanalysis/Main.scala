@@ -18,8 +18,11 @@ object Main {
       .set("spark.default.parallelism", "1")
       .set("spark.sql.shuffle.partitions", "1")
 
+    val spark = SparkSession.builder.config(conf).getOrCreate
 
-    SparkSession.builder.config(conf).getOrCreate
+    spark.sparkContext.setLogLevel("ERROR")
+
+    spark
   }
 
 
