@@ -171,26 +171,36 @@ class CrimeProcessor(private val spark: SparkSession) extends Serializable {
     .groupBy("crimeType")
     .mean("clearanceTime")
 
-  private def solvedByCrime(df: DataFrame) = df
-    .groupByKey(_.getString(3))
-    .mapGroups { (offense, iter) =>
-      var count = 0
-      var solved = 0
-      iter.foreach { row =>
-        count += 1
-        if (!row.isNullAt(8) && row.getString(8).nonEmpty && row.getString(8) != "N") {
-          solved += 1
+  private def solvedByCrimeSchema = new StructType()
+    .add("offense", StringType, nullable=false)
+    .add("total", IntegerType, nullable=false)
+    .add("solved", IntegerType, nullable=false)
+    .add("solvedRatio", DoubleType, nullable=false)
+
+  private def solvedByCrime(df: DataFrame) = {
+    val solved = df
+      .groupByKey(_.getString(3))
+      .mapGroups { (offense, iter) =>
+        var count = 0
+        var solved = 0
+        iter.foreach { row =>
+          count += 1
+          if (!row.isNullAt(8) && row.getString(8).nonEmpty && row.getString(8) != "N") {
+            solved += 1
+          }
         }
+
+        Row(offense, count, solved, solved.toDouble / count)
       }
 
-      Row(offense, count, solved, solved.toDouble / count)
-    }
+    spark.createDataFrame(solved.rdd, solvedByCrimeSchema)
+  }
 
   private def solvedTotal(df: DataFrame) = {
     val total = df.count()
     val solved = clearedCrimes(df).count()
 
-    (total, solved, total.toDouble / solved)
+    (total, solved, solved.toDouble / total)
   }
 
 
@@ -199,19 +209,19 @@ class CrimeProcessor(private val spark: SparkSession) extends Serializable {
     df.printSchema()
     println(df.take(10).mkString("Array(", ", ", ")"))
 
-    mostCommonOffense(df).write.csv("out/mostCommonOffense/")
-    mostCommonCrime(df).write.csv("out/mostCommonCrime/")
-    mostCommonMonth(df).write.csv("out/mostCommonMonth/")
-    mostCommonDistrict(df).write.csv("out/mostCommonDistrict/")
-    mostCommonClearanceMonth(df).write.csv("out/mostCommonClearanceMonth/")
-    mostCommonStatus(df).write.csv("out/mostCommonStatus/")
-    slaughterLaneType(df).write.csv("out/slaughterLaneType/")
-    slaughterLaneOffense(df).write.csv("out/slaughterLaneOffense/")
-    worstStreets(df).write.csv("out/worstStreets/")
-    bestStreets(df).write.csv("out/bestStreets/")
-    topClearanceTimes(df).write.csv("out/topClearanceTimes/")
-    clearanceByCrime(df).write.csv("out/clearanceByCrime/")
-    solvedByCrime(df).write.csv("out/solvedByCrime/")
+    mostCommonOffense(df).write.mode("overwrite").csv("out/mostCommonOffense/")
+    mostCommonCrime(df).write.mode("overwrite").csv("out/mostCommonCrime/")
+    mostCommonMonth(df).write.mode("overwrite").csv("out/mostCommonMonth/")
+    mostCommonDistrict(df).write.mode("overwrite").csv("out/mostCommonDistrict/")
+    mostCommonClearanceMonth(df).write.mode("overwrite").csv("out/mostCommonClearanceMonth/")
+    mostCommonStatus(df).write.mode("overwrite").csv("out/mostCommonStatus/")
+    slaughterLaneType(df).write.mode("overwrite").csv("out/slaughterLaneType/")
+    slaughterLaneOffense(df).write.mode("overwrite").csv("out/slaughterLaneOffense/")
+    worstStreets(df).write.mode("overwrite").csv("out/worstStreets/")
+    bestStreets(df).write.mode("overwrite").csv("out/bestStreets/")
+    topClearanceTimes(df).write.mode("overwrite").csv("out/topClearanceTimes/")
+    clearanceByCrime(df).write.mode("overwrite").csv("out/clearanceByCrime/")
+    solvedByCrime(df).write.mode("overwrite").csv("out/solvedByCrime/")
 
     println(s"Average clearance time: ${avgClearanceTime(df)}")
     println(s"Median clearance time: ${medianClearanceTime(df)}")
