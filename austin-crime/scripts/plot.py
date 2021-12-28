@@ -129,7 +129,16 @@ def plot_slaughter_lane_crimes():
     kv_bar_plot('out/slaughterLaneType', asc=False)
 
 
+def plot_offenses_against_children():
+    data = load_folder('out/mostCommonOffense')
+    data = [(d, int(c)) for d, c in data if 'CHILD' in d]
+    data.sort(key=lambda pair: pair[1], reverse=True)
+    labels, values = unzip(data)
+    simple_bar_plot(labels, values)
+
+
 def main():
+    plot_offenses_against_children()
     plot_best_streets()
     plot_worst_streets()
     plot_clearance_months()
