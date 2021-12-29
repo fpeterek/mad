@@ -115,6 +115,12 @@ class CrimeProcessor(private val spark: SparkSession) extends Serializable {
   private def slaughterLaneOffense(df: DataFrame) =
     mostCommon(df.filterByAddress("SLAUGHTER"), "highestOffense")
 
+  private def octoberCrimeType(df: DataFrame) =
+    mostCommon(df.filter("reportDate.month == 10"), "crimeType")
+
+  private def octoberOffense(df: DataFrame) =
+    mostCommon(df.filter("reportDate.month == 10"), "highestOffense")
+
   private def streetCrime(df: DataFrame) = df
     .streetsOnly
     .groupBy("location")
@@ -222,6 +228,8 @@ class CrimeProcessor(private val spark: SparkSession) extends Serializable {
     topClearanceTimes(df).write.mode("overwrite").csv("out/topClearanceTimes/")
     clearanceByCrime(df).write.mode("overwrite").csv("out/clearanceByCrime/")
     solvedByCrime(df).write.mode("overwrite").csv("out/solvedByCrime/")
+    octoberCrimeType(df).write.mode("overwrite").csv("out/octoberType/")
+    octoberOffense(df).write.mode("overwrite").csv("out/octoberOffense")
 
     println(s"Average clearance time: ${avgClearanceTime(df)}")
     println(s"Median clearance time: ${medianClearanceTime(df)}")
