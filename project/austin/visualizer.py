@@ -14,6 +14,7 @@ class Visualizer:
         self.height = int(self.width * ratio)
 
         self.screen = pygame.display.set_mode((self.width, self.height))
+        self.map.scale_img(self.width, self.height)
 
         self.points: list[ClusterPoint] = points
 
@@ -36,6 +37,8 @@ class Visualizer:
         for point in self.points:
             pygame.draw.circle(self.screen, point.color, self.coords_to_cart(lat=point.lat, lon=point.lon), 3)
 
+        pygame.display.flip()
+
     def coords_to_cart(self, lat: float, lon: float) -> tuple[float, float]:
         x = (lon - self.map.left_top.lon) / self.px
         y = self.height - (lat - self.map.right_bottom.lat) / self.py
@@ -43,5 +46,6 @@ class Visualizer:
 
     def update(self):
         self.poll_events()
-        self.redraw()
+        if self.open:
+            self.redraw()
 

@@ -19,8 +19,8 @@ class Map:
 
             left_top = j['left_top']
             right_bottom = j['right_bottom']
-            left_top = GeoPoint(lat=int(left_top['lat']), lon=int(left_top['lon']))
-            right_bottom = GeoPoint(lat=int(right_bottom['lat']), lon=int(right_bottom['lon']))
+            left_top = GeoPoint(lat=float(left_top['lat']), lon=float(left_top['lon']))
+            right_bottom = GeoPoint(lat=float(right_bottom['lat']), lon=float(right_bottom['lon']))
 
             return Map(img, left_top, right_bottom)
 
