@@ -1,4 +1,5 @@
 from datetime import datetime
+import csv
 
 from crime_record import CrimeRecord
 from geo_converter import GeoConverter
@@ -6,11 +7,10 @@ from geo_point import GeoPoint
 
 
 class DataLoader:
-    def __init__(self):
-        self.geo_converter = GeoConverter()
 
-    def parse_line(self, line: str) -> CrimeRecord:
-        split = line.split(',')
+    @staticmethod
+    def parse_line(line: list) -> CrimeRecord:
+        split = line[:]
         key = int(split[0])
         district = int(split[1]) if split[1] else None
         highest_offense = split[2]
@@ -33,12 +33,9 @@ class DataLoader:
                            clearance_status=clearance_status, clearance_date=clearance_date, go_district=go_district,
                            go_zip_code=go_zip_code, go_census_tract=go_census_tract, clearance_time=clearance_time)
 
-    def load(self, filename: str) -> list[CrimeRecord]:
-        with open(filename) as file:
-            filtered = filter(lambda x: x and not x.isspace(), file)
-            return list(map(self.parse_line, filtered))
-
     @staticmethod
     def load_data(filename: str) -> list[CrimeRecord]:
-        loader = DataLoader()
-        return loader.load(filename)
+        with open(filename, newline='') as file:
+            reader = csv.reader(file, delimiter=',', quotechar='"')
+            filtered = filter(lambda x: x, reader)
+            return list(map(DataLoader.parse_line, filtered))

@@ -13,7 +13,7 @@ _colors = [
 
 def main():
     print('loading data...')
-    data = DataLoader.load_data('in/2018_Annual_Crime.csv')
+    data = DataLoader.load_data('in/austin.csv')
     print('data loaded...')
     geo_points = [record.coordinates for record in data if record.coordinates]
     print('clustering...')

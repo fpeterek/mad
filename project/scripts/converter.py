@@ -1,4 +1,5 @@
 import sys
+import csv
 
 import pyproj
 
@@ -18,10 +19,12 @@ class GeoConverter:
 def convert(infile, outfile):
     converter = GeoConverter()
     count = 0
-    with open(infile) as f, open(outfile, 'w') as out:
-        for line in f:
+    with open(infile, newline='') as f, open(outfile, 'w', newline='') as out:
+        reader = csv.reader(f, delimiter=',', quotechar='"')
+        writer = csv.writer(out, delimiter=',', quotechar='"')
+        for line in reader:
             if line:
-                split = line.split(',')
+                split = line[:]
                 x, y = split[6], split[7]
                 if x and y:
                     lat, lon = converter.convert(float(x), float(y))
@@ -29,7 +32,7 @@ def convert(infile, outfile):
                     lat, lon = '', ''
                 split[6] = lat
                 split[7] = lon
-                out.write(','.join([str(item) for item in split]))
+                writer.writerow(split)
                 count += 1
                 if count % 100 == 0:
                     print(count)

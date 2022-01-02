@@ -10,5 +10,8 @@ class GeoPoint:
     def latlon(self):
         return self.lat, self.lon
 
+    def __str__(self):
+        return f'Point {{latitude={self.lat}, longitude={self.lon}'
+
     def distance(self, other):
-        return geopy.distance.distance(self.latlon, other.latlon)
+        return geopy.distance.distance(self.latlon, other.latlon).m

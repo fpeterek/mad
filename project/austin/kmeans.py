@@ -11,15 +11,15 @@ def calc_dist(p1: GeoPoint, p2: GeoPoint) -> float:
     return p1.distance(p2)
 
 
-def calc_centroids(clusters) -> list[tuple[float, float]]:
+def calc_centroids(clusters) -> list[GeoPoint]:
     centroids = []
     for cluster in clusters:
         sum_x = 0
         sum_y = 0
         for point in cluster:
-            sum_x += point[0]
-            sum_y += point[1]
-        centroids.append((sum_x / len(cluster), sum_y / len(cluster)))
+            sum_x += point.lon
+            sum_y += point.lat
+        centroids.append(GeoPoint(lon=sum_x / len(cluster), lat=sum_y / len(cluster)))
     return centroids
 
 
