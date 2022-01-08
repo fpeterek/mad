@@ -1,6 +1,6 @@
 import pygame.display
 
-from map import Map
+from visualization.map import Map
 
 from cluster_point import ClusterPoint
 
