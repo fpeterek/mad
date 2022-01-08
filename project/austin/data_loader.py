@@ -1,9 +1,8 @@
 from datetime import datetime
 import csv
 
-from crime_record import CrimeRecord
-from geo_converter import GeoConverter
-from geo_point import GeoPoint
+from data.crime_record import CrimeRecord
+from data.geo_point import GeoPoint
 
 
 class DataLoader:
@@ -20,7 +19,6 @@ class DataLoader:
         coordinates = None
         if split[6] and split[7]:
             coordinates = GeoPoint(lat=float(split[6]), lon=float(split[7]))
-            # self.geo_converter.convert(float(split[6]), float(split[7]))
         clearance_status = split[8] if split[8] else None
         clearance_date = None if not split[9] else datetime.strptime(split[9], '%d-%b-%y').date()
         go_district = split[10]

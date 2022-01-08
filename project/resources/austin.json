@@ -1,0 +1,12 @@
+{
+    "left_top": {
+        "lat": 30.5899267,
+        "lon": -98.2650050
+    },
+    "right_bottom": {
+        "lat": 30.0166672,
+        "lon": -97.2226772
+    },
+    "img": "resources/austin.png"
+}
+

@@ -1,4 +1,4 @@
-from geo_point import GeoPoint
+from data.geo_point import GeoPoint
 
 
 class ClusterPoint(GeoPoint):

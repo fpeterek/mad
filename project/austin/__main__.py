@@ -1,7 +1,7 @@
 from data_loader import DataLoader
 from cluster_point import ClusterPoint
 from visualizer import Visualizer
-import kmeans
+from kmeans.kmeans import kmeans
 from map import Map
 
 
@@ -17,7 +17,7 @@ def main():
     print('data loaded...')
     geo_points = [record.coordinates for record in data if record.coordinates]
     print('clustering...')
-    clusters = kmeans.kmeans(geo_points, 7, 5)
+    clusters = kmeans(geo_points, cluster_count=7, attempts=5, processes=4)
     points = []
     global _colors
     for color, cluster in zip(_colors, clusters):
