@@ -10,7 +10,9 @@ def calc_dist(p1: GeoPoint, p2: GeoPoint) -> float:
     return p1.distance(p2)
 
 
-def calc_centroid(cluster: list[GeoPoint]) -> GeoPoint:
+def calc_centroid(cluster: list[GeoPoint]) -> GeoPoint | None:
+    if len(cluster) is None:
+        return None
     sum_x = 0
     sum_y = 0
     for point in cluster:

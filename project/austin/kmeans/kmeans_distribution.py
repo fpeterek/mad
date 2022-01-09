@@ -4,16 +4,19 @@ import multiprocessing as mp
 import kmeans.globals as kg
 from kmeans.kmeans_core import calc_centroid, distribute_points
 from kmeans.message import Message
+from data.geo_point import GeoPoint
 
 
-def calc_centroids_in_serial(clusters) -> list[tuple[float, float]]:
-    return [calc_centroid(c) for c in clusters]
+def calc_centroids_in_serial(clusters) -> list[GeoPoint]:
+    centroids = [calc_centroid(c) for c in clusters]
+    return [centroid for centroid in centroids if centroid]
 
 
 def calc_centroids_in_parallel(clusters):
     for idx, cluster in enumerate(clusters):
         kg.in_queue.put(Message(msg_type=Message.Type.CENTROIDS, data=cluster, order=idx))
     centroids = [kg.out_queue.get() for _ in range(len(clusters))]
+    centroids = [centroid for centroid in centroids if centroid is not None]
     centroids.sort(key=lambda msg: msg.order)
     return [msg.data for msg in centroids]
 

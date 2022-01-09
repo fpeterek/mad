@@ -4,6 +4,9 @@ from dataclasses import dataclass
 from data.geo_point import GeoPoint
 
 
+_cleared = ('C', 'O')
+
+
 @dataclass
 class CrimeRecord:
     key: int
@@ -19,3 +22,8 @@ class CrimeRecord:
     go_zip_code: int | None
     go_census_tract: str | None
     clearance_time: int | None
+
+    @property
+    def is_cleared(self) -> bool:
+        global _cleared
+        return self.clearance_status and self.clearance_status in _cleared

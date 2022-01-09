@@ -1,0 +1,152 @@
+{
+    "records_total": 1000,
+    "crime_types": {
+        "Auto Theft": 69,
+        "Theft": 697,
+        "Burglary": 115,
+        "Agg Assault": 60,
+        "Robbery": 35,
+        "Rape": 23,
+        "Murder": 1
+    },
+    "highest_offenses": {
+        "AUTO THEFT": 69,
+        "THEFT BY SHOPLIFTING": 64,
+        "BURGLARY OF VEHICLE": 311,
+        "BURGLARY OF RESIDENCE": 61,
+        "THEFT": 242,
+        "THEFT FROM AUTO": 7,
+        "AGG ASLT STRANGLE/SUFFOCATE": 18,
+        "BURGLARY NON RESIDENCE": 44,
+        "THEFT FROM BUILDING": 9,
+        "BREACH OF COMPUTER SECURITY": 3,
+        "AGG ROBBERY/DEADLY WEAPON": 22,
+        "AGG SEXUAL ASSAULT CHILD/OBJEC": 2,
+        "THEFT OF BICYCLE": 24,
+        "BURG OF RES - SEXUAL NATURE": 2,
+        "RAPE": 9,
+        "AGG ASSAULT": 29,
+        "THEFT FROM PERSON": 19,
+        "ROBBERY BY THREAT": 3,
+        "THEFT OF LICENSE PLATE": 11,
+        "AGG ASSAULT WITH MOTOR VEH": 1,
+        "BURG NON RESIDENCE SHEDS": 8,
+        "ROBBERY BY ASSAULT": 8,
+        "SEXUAL ASSAULT W/ OBJECT": 3,
+        "AGG ROBBERY BY ASSAULT": 2,
+        "AGG ASLT W/MOTOR VEH FAM/DAT V": 2,
+        "AGG ASSAULT FAM/DATE VIOLENCE": 6,
+        "THEFT OF AUTO PARTS": 2,
+        "THEFT OF TRAILER": 2,
+        "DEADLY CONDUCT": 3,
+        "BURGLARY OF COIN-OP MACHINE": 2,
+        "MURDER": 1,
+        "SEXUAL ASSAULT OF CHILD/OBJECT": 3,
+        "FORCED SODOMY": 2,
+        "DEADLY CONDUCT FAM/DATE VIOL": 1,
+        "AGG RAPE OF A CHILD": 2,
+        "THEFT OF METAL": 1,
+        "AGG RAPE": 2
+    },
+    "streets": {
+        "": 955,
+        "E 6TH ST / NECHES ST": 1,
+        "Unknown": 23,
+        "W 17TH ST / RIO GRANDE ST": 1,
+        "E 53RD ST / HARMON AVE": 1,
+        "E 12TH ST / WEBBERVILLE RD": 1,
+        "E 38TH HALF ST / N IH 35 SVRD NB": 1,
+        "N LAMAR BLVD / W RUNDBERG LN": 1,
+        "S CONGRESS AVE / W OLTORF ST": 1,
+        "E 11TH ST / SAN MARCOS ST": 1,
+        "W 43RD ST / N LAMAR BLVD": 1,
+        "E 11TH ST / N IH 35 SVRD NB": 1,
+        "CHICON ST / ROSEWOOD AVE": 1,
+        "VERTEX BLVD / BAYTHORNE DR": 1,
+        "W 7TH ST / RIO GRANDE ST": 1,
+        "E 5TH ST / CHICON ST": 1,
+        "E 6TH ST / CONGRESS AVE": 1,
+        "E 4TH ST / COMAL ST": 1,
+        "N IH 35 SVRD NB / E CESAR CHAVEZ ST": 1,
+        "ONION ST / E 4TH ST": 1,
+        "W 4TH ST / NUECES ST": 1,
+        "CARY DR / CAVILEER AVE": 1,
+        "RED RIVER ST / E 7TH ST": 1,
+        "E OLTORF ST / PARKER LN": 1
+    },
+    "districts": {
+        "9": 141,
+        "10": 58,
+        "4": 123,
+        "7": 145,
+        "3": 159,
+        "2": 78,
+        "1": 105,
+        "8": 62,
+        "5": 76,
+        "6": 48,
+        "Unknown": 5
+    },
+    "months": {
+        "12": 146,
+        "10": 189,
+        "6": 52,
+        "7": 149,
+        "9": 151,
+        "11": 149,
+        "8": 163,
+        "5": 1
+    },
+    "crime_data": {
+        "Theft": {
+            "count": 697,
+            "solved": 54,
+            "average_clearance_time": 2.8518518518518516,
+            "variance": 73.23731138545952,
+            "standard_deviation": 8.557880075431036
+        },
+        "Agg Assault": {
+            "count": 60,
+            "solved": 32,
+            "average_clearance_time": 13.46875,
+            "variance": 660.5615234375,
+            "standard_deviation": 25.701391468897164
+        },
+        "Burglary": {
+            "count": 115,
+            "solved": 16,
+            "average_clearance_time": 38.0,
+            "variance": 1341.25,
+            "standard_deviation": 36.62308015445998
+        },
+        "Rape": {
+            "count": 23,
+            "solved": 7,
+            "average_clearance_time": 77.0,
+            "variance": 1276.5714285714287,
+            "standard_deviation": 35.72913976814203
+        },
+        "Auto Theft": {
+            "count": 69,
+            "solved": 11,
+            "average_clearance_time": 22.636363636363637,
+            "variance": 1070.5950413223143,
+            "standard_deviation": 32.719948675422984
+        },
+        "Robbery": {
+            "count": 35,
+            "solved": 9,
+            "average_clearance_time": 55.44444444444444,
+            "variance": 5463.5802469135815,
+            "standard_deviation": 73.91603511359075
+        },
+        "Murder": {
+            "count": 1,
+            "solved": 1,
+            "average_clearance_time": 91.0,
+            "variance": 0.0,
+            "standard_deviation": 0.0
+        }
+    },
+    "silhouette_index": 0.9959831568071827
+}
