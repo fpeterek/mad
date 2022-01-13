@@ -1,4 +1,3 @@
-import multiprocessing
 import random
 
 
@@ -15,6 +14,8 @@ def calc_dist(p1, p2) -> float:
 def calc_centroids(clusters) -> list[tuple[float, float]]:
     centroids = []
     for cluster in clusters:
+        if not cluster:
+            continue
         sum_x = 0
         sum_y = 0
         for point in cluster:
@@ -39,7 +40,7 @@ def distribute_points(centroids, points) -> list[list[tuple[int, int]]]:
     return clusters
 
 
-def run_iteration(points: list[tuple[int, int]], cluster_count: int, processes: int):
+def run_iteration(points: list[tuple[int, int]], cluster_count: int):
     centroids = random.sample(points, cluster_count)
     max_iterations = 10
     for i in range(max_iterations):
@@ -60,11 +61,11 @@ def calc_dist_sse(centroids, clusters):
     return distances
 
 
-def kmeans(points: list[tuple[int, int]], cluster_count: int, attempts: int, processes: int) -> list[list[tuple[int, int]]]:
+def kmeans(points: list[tuple[int, int]], cluster_count: int, attempts: int) -> list[list[tuple[int, int]]]:
     best_sse = None
     best_distribution = None
     for i in range(attempts):
-        centroids, clusters = run_iteration(points, cluster_count, processes)
+        centroids, clusters = run_iteration(points, cluster_count)
         sse = calc_dist_sse(centroids, clusters)
         if best_sse is None or sse < best_sse:
             best_sse = sse
