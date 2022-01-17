@@ -17,7 +17,7 @@ _colors = [
 
 def parse_street(address: str) -> str:
     index = 0
-    while index < len(address) and (address[0].isspace() or address[0].isdigit()):
+    while index < len(address) and (address[index].isspace() or address[index].isdigit()):
         index += 1
     return address[index:]
 

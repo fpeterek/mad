@@ -15,7 +15,7 @@ class DataLoader:
         highest_offense = split[2]
         crime_type = split[3]
         report_date = datetime.strptime(split[4], '%d-%b-%y').date()
-        location = split[5] if split[5] else None
+        location = split[5] if split[5] and split[5] != '""' else None
         coordinates = None
         if split[6] and split[7]:
             coordinates = GeoPoint(lat=float(split[6]), lon=float(split[7]))
