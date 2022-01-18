@@ -21,7 +21,7 @@ def convert(infile, outfile):
     count = 0
     with open(infile, newline='') as f, open(outfile, 'w', newline='') as out:
         reader = csv.reader(f, delimiter=',', quotechar='"')
-        writer = csv.writer(out, delimiter=',', quotechar='"')
+        writer = csv.writer(out, delimiter=',', quotechar='"', lineterminator='\n')
         for line in reader:
             if line:
                 split = line[:]

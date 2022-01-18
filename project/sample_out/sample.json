@@ -630,7 +630,14 @@
             "average_clearance_time": 91.0,
             "variance": 0.0,
             "standard_deviation": 0.0
+        },
+        "total": {
+            "count": 1000,
+            "solved": 130,
+            "average_clearance_time": 19.776923076923076,
+            "variance": 1369.4348520710057,
+            "standard_deviation": 37.0058759127656
         }
     },
-    "silhouette_index": 0.9952611242588277
+    "silhouette_index": 0.9961388410067645
 }

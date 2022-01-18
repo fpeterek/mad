@@ -51,14 +51,23 @@ def calc_statistics(data: list[CrimeRecord]) -> dict:
             durations[record.crime_type].append(record.clearance_time)
             solved[record.crime_type] = solved.get(record.crime_type, 0) + 1
 
+    crimes_count_total = 0
+    solved_count_total = 0
+    durations_total = 0
+    sse_total = 0
+
     for crime, duration_list in durations.items():
         solved_count = solved[crime]
         average_clearance_time = sum(duration_list) / solved_count
         sum_of_squares = 0
         for duration in duration_list:
             sum_of_squares += (average_clearance_time - duration) ** 2
-        variance = sum_of_squares / solved_count
+        variance = sum_of_squares / len(duration_list)
         std_dev = variance ** 0.5
+
+        crimes_count_total += crime_types[crime]
+        solved_count_total += solved_count
+        durations_total += sum(duration_list)
 
         crime_data[crime] = {
             'count': crime_types[crime],
@@ -67,6 +76,21 @@ def calc_statistics(data: list[CrimeRecord]) -> dict:
             'variance': variance,
             'standard_deviation': std_dev,
         }
+
+    avg_total = durations_total / solved_count_total
+    sse_total = 0
+
+    for duration_list in durations.values():
+        for duration in duration_list:
+            sse_total += (avg_total - duration) ** 2
+
+    crime_data['total'] = {
+        'count': crimes_count_total,
+        'solved': solved_count_total,
+        'average_clearance_time': avg_total,
+        'variance': sse_total / solved_count_total,
+        'standard_deviation': (sse_total / solved_count_total) ** 0.5,
+    }
 
     results['crime_types'] = crime_types
     results['highest_offenses'] = highest_offenses

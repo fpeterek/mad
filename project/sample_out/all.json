@@ -5071,16 +5071,16 @@
         "Theft": {
             "count": 26572,
             "solved": 2367,
-            "average_clearance_time": 8.108153781157583,
-            "variance": 734.1826415851342,
-            "standard_deviation": 27.09580487059084
+            "average_clearance_time": 8.115758343895227,
+            "variance": 734.0592658275261,
+            "standard_deviation": 27.093528117015808
         },
         "Agg Assault": {
             "count": 2128,
             "solved": 1115,
-            "average_clearance_time": 13.047533632286996,
-            "variance": 1664.9600723923718,
-            "standard_deviation": 40.80392226725725
+            "average_clearance_time": 13.051121076233184,
+            "variance": 1664.8664449315204,
+            "standard_deviation": 40.802774966067204
         },
         "Burglary": {
             "count": 4171,
@@ -5116,6 +5116,13 @@
             "average_clearance_time": 22.48148148148148,
             "variance": 1207.9533607681753,
             "standard_deviation": 34.75562344093651
+        },
+        "total": {
+            "count": 37156,
+            "solved": 4973,
+            "average_clearance_time": 19.192439171526242,
+            "variance": 2036.1847648728772,
+            "standard_deviation": 45.124104034017975
         }
     }
 }

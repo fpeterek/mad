@@ -24,7 +24,7 @@ class DataLoader:
         go_district = split[10]
         go_zip_code = int(split[11]) if split[11] else None
         go_census_tract = split[12] if split[12] else None
-        clearance_time = (clearance_date - report_date).days if clearance_date else None
+        clearance_time = abs((clearance_date - report_date).days) if clearance_date else None
 
         return CrimeRecord(key=key, council_district=district, highest_offense=highest_offense, crime_type=crime_type,
                            report_date=report_date, location=location, coordinates=coordinates,
