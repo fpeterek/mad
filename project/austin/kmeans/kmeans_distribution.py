@@ -9,14 +9,14 @@ from data.geo_point import GeoPoint
 
 def calc_centroids_in_serial(clusters) -> list[GeoPoint]:
     centroids = [calc_centroid(c) for c in clusters]
-    return [centroid for centroid in centroids if centroid]
+    return [centroid for centroid in centroids if centroid is not None]
 
 
 def calc_centroids_in_parallel(clusters):
     for idx, cluster in enumerate(clusters):
         kg.in_queue.put(Message(msg_type=Message.Type.CENTROIDS, data=cluster, order=idx))
     centroids = [kg.out_queue.get() for _ in range(len(clusters))]
-    centroids = [centroid for centroid in centroids if centroid is not None]
+    centroids = [msg for msg in centroids if msg.data is not None]
     centroids.sort(key=lambda msg: msg.order)
     return [msg.data for msg in centroids]
 
